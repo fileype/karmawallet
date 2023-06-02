@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@media (max-width: 480px) {
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      background-color: #004225;
+    }
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.5rem;
+    }
+  
+    .logo {
+      width: 5rem;
+      height:7rem;
+      margin-left: 3rem;
+    }
+  
+    .menu {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      margin-left: 1rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .menu a h1 {
+      color: white;
+      margin: 1rem;
+      font-size: 18px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 400;
+    }
+  
+    .icons {
+      display: flex;
+      gap: 0.01rem;
+      margin-right: 3rem;
+    }
+  
+    .icon {
+      padding: 0.5rem;
+      width: 1.5rem;
+      height: auto;
+      cursor: pointer;
+    }
+  
+    .bodySection {
+        display: flex;
+        gap:0.3rem;
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+      }
+    .phone {
+      width: 8rem;
+      height: auto;
+      margin-left: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .centerBodySection {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: white;
+      width: 13rem;
+      text-align: left;
+      padding-left: 1rem;
+      position: relative;
+    }
+  
+    .centerBodySection h1 {
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 500;
+    }
+  
+    .download {
+      width: 15rem;
+      margin-top: 1rem;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .download-el {
+      display: flex;
+      gap: 0.1rem;
+    }
+  
+    .DownloadImg {
+      width: 5rem;
+      height: auto;
+      padding: 0.4rem;
+      cursor: pointer;
+    }
+  
+    .BD {
+        width:15rem;
+        margin-left: -1.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    ul {
+        overflow-x: auto; 
+        margin-left: -1rem;
+      }
+  
+      ul li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        color: white;
+        gap: 0.5rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.5rem;
+        word-wrap: break-word; /* Allow words to wrap within list items */
+        flex: 0 0 auto; /* Disable flex-grow and flex-shrink */
+        max-width: 6rem; /* Remove max-width constraint */
+      }
+  
+    ul li img {
+      width: 0.5rem;
+      height: auto;
+    }
+  
+    ul li h1 {
+      font-size: 11px;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+  }
